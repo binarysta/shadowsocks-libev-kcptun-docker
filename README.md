@@ -36,11 +36,11 @@ Docker run -d -p 8388:8388 -p 29900:29900/udp geekza/shadowsocks-libev-kcptun \
     -s 'yourkcppassword' -c 'salsa20'
 ```
 
-## port
+## Ports
 
 Service | Port | Type |
 | ------------- |:-------------:| -----:|
-Shadowsocks | 8388 | TCP |
+Shadowsocks | 8388 | TCP/UDP |
 Kcptun | 29900 | UDP |
 
 ## Configure Android application Plugin
